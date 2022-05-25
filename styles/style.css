@@ -9,6 +9,7 @@ body {
 
 header {
     padding: 10px 0px;
+    color: white;
 }
 
 header h1 {
@@ -41,7 +42,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 nav li:hover {
@@ -55,30 +56,40 @@ section {
     padding: 20px;
     font-size: 18px;
     background-color: white;
+    border-radius: 5px;
 }
 
-section article {
-    display: inline-block;
-    padding: 10px;
-}
-
-section article > img {
-    height: 550px;
-    width: 800px;
-}
-
-aside div > div{
-    margin-top: 15px;
+section article > div {
+    margin-top: 10px;
 }
 
 footer {
-    width: 1000px;
-    margin: auto;
+    width: 1220px;
+    margin: 10px 150px 15px;
+    border: 5px solid blueviolet;
+    border-radius: 10px;
+    background-color: cadetblue;
 }
 
 footer div {
     font-size: 25px;
-    display: inline-block;
-    padding: 10px 0px;
+    padding: 10px;
     margin-right: 400px;
+}
+
+footer div > li {
+    list-style: none;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer div > li:hover {
+    background-color: red;
+}
+
+.copy > li {
+    border: 2px solid white;
+    border-radius: 10px;
 }
